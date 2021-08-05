@@ -1,7 +1,4 @@
 Hello Deb!
 
-<<<<<<< HEAD
-Hello Jay!
-=======
 Here comes a conflict!!!
->>>>>>> 16ec0a76920f0c7e7ffcc97211362b70eef98197
+Hello Jay!
