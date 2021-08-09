@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -220,6 +220,7 @@ Transform:
   - {fileID: 1257324352}
   - {fileID: 2032435045}
   - {fileID: 565357648}
+  - {fileID: 857237589}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -731,7 +732,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 30b92673b9b7ef44c9c11a474d9910c9, type: 2}
+  - {fileID: 2100000, guid: 94021b4add10dd34bbca093228d84349, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1008,6 +1009,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2183717637793305207, guid: cf8f94e3a8a36f242a704379c9c8e398, type: 3}
   m_PrefabInstance: {fileID: 816165217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &857237589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+  m_PrefabInstance: {fileID: 8652619258959737681}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1229767636
 GameObject:
@@ -1903,3 +1909,60 @@ PrefabInstance:
       objectReference: {fileID: 1807286971}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55f03fd36b2812c45952516fda8cf312, type: 3}
+--- !u!1001 &8652619258959737681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 120648900}
+    m_Modifications:
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833220, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652619259209833221, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
+      propertyPath: m_Name
+      value: Cabinet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f512838a0985514b85370cbb3a3f2b1, type: 3}
