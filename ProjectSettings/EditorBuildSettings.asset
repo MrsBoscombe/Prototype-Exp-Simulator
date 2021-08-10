@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Corridor.unity
-    guid: a4dafb6f1575c13469f42b6e3b8d9fb3
+    path: Assets/Scenes/CorridorTwo.unity
+    guid: f9c4465a4895eb744a98d0f86b235936
   - enabled: 1
     path: Assets/Scenes/RoomOne.unity
     guid: 4f3a5d9a298d3094d9a8655f3db8ee2d
